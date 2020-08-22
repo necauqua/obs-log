@@ -1,0 +1,16 @@
+[package]
+name = 'obs-log'
+version = '0.1.1'
+description = 'A very simple Rust crate that binds the log facade crate to OBS plugin logging API '
+authors = ['Anton Bulakh <self@necauqua.dev>']
+license = 'MIT'
+repository = 'https://github.com/necauqua/obs-log'
+readme = 'readme.markdown'
+edition = '2018'
+
+[dependencies.libobs-sys]
+version = '0.1'
+
+[dependencies.log]
+version = '0.4'
+features = ['std']
